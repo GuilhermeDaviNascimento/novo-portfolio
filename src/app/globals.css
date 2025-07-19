@@ -1,11 +1,17 @@
 @import "tailwindcss";
 
+
+:root {
+  font-family: var(--font-funnel), sans-serif;
+}
+
 body {
   display: flex;
   width: 100vw;
   height: 100vh;
+  font-family: var(--font-funnel), sans-serif;
 }
 
-text{
-  color: #111827
+span {
+  color: #111827;
 }

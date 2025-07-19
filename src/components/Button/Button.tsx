@@ -1,6 +1,6 @@
 interface ButtonProps {
   children: React.ReactNode;
-  variation?: 'primary' | 'secondary' | 'danger';
+  variation?: 'primary' | 'secondary' | 'danger' | 'third';
 }
 
 export default function Button({ children, variation = 'primary' }: ButtonProps) {
@@ -10,8 +10,8 @@ export default function Button({ children, variation = 'primary' }: ButtonProps)
   const variations: Record<string, string> = {
     primary:
       'bg-[#0f3d3e] border border-[#0f3d3e] text-white hover:bg-[#f1f1f1] hover:border-[#0f3d3e] hover:text-[#111827]',
-    secondary:
-      'text-[#111827] border border-[#0f3d3e] hover:bg-[#0f3d3e] hover:text-white',
+    secondary: 'text-[#111827] border border-[#0f3d3e] hover:bg-[#0f3d3e] hover:text-white',
+    third: 'text-[#111827] hover:underline',
     danger: 'bg-red-600 text-white hover:bg-red-700',
   };
 

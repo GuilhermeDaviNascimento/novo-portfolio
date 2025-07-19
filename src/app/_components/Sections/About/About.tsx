@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="min-w-screen min-h-screen flex flex-col">
+    <div className="min-w-screen min-h-4/5 flex flex-col">
       <div className=" flex items-center px-48 justify-between w-full h-full gap-5">
         <div className="relative w-[100%] h-[50%]">
           <div className="w-[100%] h-[100%] bg-black rounded-md"></div>
