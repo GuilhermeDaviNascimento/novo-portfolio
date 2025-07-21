@@ -2,7 +2,7 @@ import Card from './_components/Card/Card';
 
 export default function Projects() {
   return (
-    <div className="bg-[#f1f1f1] min-w-screen min-h-4/5 flex flex-col justify-center items-center">
+    <div className="bg-[#f1f1f1] min-w-screen min-h-4/5 flex flex-col justify-center items-center" id="projects">
       <span className="border-[#0f3d3e] border-b-4 text-4xl font-bold w-max pb-5">
         Featured Projects
       </span>

@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={funnelDisplay.variable}>
-      <body>{children}</body>
+    <html lang="pt-BR" className={`${funnelDisplay.variable} scroll-smooth`}>
+      <body className="scroll-smooth">{children}</body>
     </html>
   );
 }

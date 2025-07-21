@@ -1,4 +1,4 @@
-import Button from '@/components/Button/Button';
+import Button from '@/components/Button/button';
 import { IoIosArrowForward } from 'react-icons/io';
 
 interface Card_Props {

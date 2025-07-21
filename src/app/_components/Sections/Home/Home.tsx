@@ -1,11 +1,11 @@
-import Button from '@/components/Button/Button';
+import Button from '@/components/Button/button';
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io';
 import { FaDownload } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <div className="bg-[#f1f1f1] min-w-screen min-h-screen flex flex-col">
-      <div className=" flex items-center px-48 justify-between w-full h-full">
+    <div className="bg-[#f1f1f1] min-w-screen min-h-screen flex flex-col justify-center">
+      <div className=" flex items-center lg:px-48 justify-between w-full h-4/5">
         <div className="flex flex-col gap-2">
           <span className="text-2xl">Hi, I'm</span>
           <span className="text-8xl font-bold">Guilherme Davi</span>
@@ -31,8 +31,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-80 h-80">
-          <div className="bg-black w-80 h-80 rounded-full border-white border-8"></div>
+        <div className="relative w-56 h-56 lg:w-80 lg:h-80 hidden md:flex">
+          <div className="bg-black w-56 h-56 lg:w-80 lg:h-80 rounded-full border-white border-8"></div>
           <div className="p-3 gap-5 absolute bottom-0 right-0 translate-y-1/2 bg-white rounded-md justify-center items-center flex shadow-lg">
             <div className="w-3 h-3 bg-green-500 rounded-full"></div>
             Available for work

@@ -1,5 +1,4 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 :root {
   font-family: var(--font-funnel), sans-serif;
@@ -14,4 +13,8 @@ body {
 
 span {
   color: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
 }
