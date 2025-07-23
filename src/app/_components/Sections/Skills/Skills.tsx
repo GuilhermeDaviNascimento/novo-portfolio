@@ -51,10 +51,10 @@ const developerSkills = [
 
 export default function Skills() {
   return (
-    <div className="min-w-screen min-h-4/5 flex flex-col justify-center items-center" id='skills'>
+    <div className="min-w-screen lg:min-h-4/5 min-h-max lg:my-0 my-10 px-10 flex flex-col justify-center items-center" id='skills'>
       <span className="border-[#0f3d3e] border-b-4 text-4xl font-bold w-max pb-5">My Skills</span>
       <span className="mt-5">The tools and technologies I use to bring ideas to life.</span>
-      <div className="grid grid-cols-2 gap-7 mt-5">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-7 mt-5">
         <Skill title="Frontend" icon={<RiCodeView />} skills={frontendSkills} />
         <Skill title="Design" icon={<FaPenFancy />} skills={designSkills} />
         <Skill title="Backend" icon={<FaNodeJs />} skills={backendSkills} />

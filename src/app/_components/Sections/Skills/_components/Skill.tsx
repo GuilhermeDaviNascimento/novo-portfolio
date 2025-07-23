@@ -21,7 +21,7 @@ export default function SkillSection({ title, icon, skills }: SkillSectionProps)
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="w-2xs h-16 flex items-center bg-[#f1f1f1] rounded-2xl px-3 gap-2"
+            className="lg:w-2xs sm:w-1xs h-16 flex items-center bg-[#f1f1f1] rounded-2xl px-3 gap-2"
           >
             {skill.icon}
             {skill.name}

@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <div className="min-w-screen min-h-4/5 flex flex-col" id="about">
-      <div className="flex items-center lg:px-48 justify-between w-full h-full gap-5">
-        <div className="relative w-[100%] h-[50%] hidden lg:flex">
-          <div className="w-[100%] h-[100%] bg-black rounded-md"></div>
+    <div className="min-w-screen min-h-4/5 flex flex-col " id="about">
+      <div className="flex items-center lg:px-48 px-10 justify-between w-full h-full gap-5">
+        <div className="relative hidden lg:flex">
+          <div className="w-96 h-96 bg-black rounded-md"></div>
           <div className="p-3 gap-5 absolute bottom-0 right-0 translate-y-1/2 bg-[#0f3d3e] rounded-md justify-center items-center flex shadow-lg">
             <p className="text-white font-bold">1+ Years experience</p>
           </div>
