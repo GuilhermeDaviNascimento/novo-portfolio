@@ -4,6 +4,7 @@ import About from './_components/Sections/About/About';
 import Home from './_components/Sections/Home/Home';
 import Projects from './_components/Sections/Projects/Projects';
 import Skills from './_components/Sections/Skills/Skills';
+import Idea from './_components/Sections/Ideas/Idea';
 
 
 export default function Main() {
@@ -14,6 +15,7 @@ export default function Main() {
       <About></About>
       <Projects></Projects>
       <Skills></Skills>
+      <Idea></Idea>
       <Footer></Footer>
     </div>
   );
