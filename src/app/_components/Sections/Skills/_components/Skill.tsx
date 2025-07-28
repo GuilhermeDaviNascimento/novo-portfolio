@@ -19,12 +19,11 @@ export default function SkillSection({ title, icon, skills }: SkillSectionProps)
       </span>
       <div className="grid grid-cols-2 gap-5">
         {skills.map((skill, index) => (
-          <div
-            key={index}
-            className="lg:w-2xs sm:w-1xs h-16 flex items-center bg-[#f1f1f1] rounded-2xl px-3 gap-2"
-          >
-            {skill.icon}
-            {skill.name}
+          <div key={index} className="h-16 flex items-center bg-[#f1f1f1] rounded-2xl px-3 gap-3">
+            <div className="w-3 md:h-6 h-3 md:w-6 flex items-center justify-center text-xl">
+              {skill.icon}
+            </div>
+            <span className='text-xs md:text-base'>{skill.name}</span>
           </div>
         ))}
       </div>

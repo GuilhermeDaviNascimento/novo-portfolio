@@ -1,6 +1,7 @@
 import Button from '@/components/Button/button';
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io';
 import { FaDownload } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -19,14 +20,18 @@ export default function Home() {
 
           <div className="flex gap-5">
             <div>
-              <Button>
-                View Projects <IoIosArrowForward />
-              </Button>
+              <Link href={'#projects'}>
+                <Button>
+                  View Projects <IoIosArrowForward />
+                </Button>
+              </Link>
             </div>
             <div>
-              <Button variation="secondary">
-                Download CV <FaDownload />
-              </Button>
+              <Link href={'/Currículo - Guilherme Davi.pdf'} download>
+                <Button variation="secondary">
+                  Download CV <FaDownload />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -40,7 +45,9 @@ export default function Home() {
         </div>
       </div>
       <div className="flex items-end justify-center">
-        <IoIosArrowDown className="text-3xl animate-bounce text-[#111827]" />
+        <Link href={'#about'}>
+          <IoIosArrowDown className="text-3xl animate-bounce text-[#111827]" />
+        </Link>
       </div>
     </div>
   );

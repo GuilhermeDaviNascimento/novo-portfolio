@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -52,6 +52,10 @@ span {
 
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth !important;
 }
 
 @theme inline {

@@ -45,10 +45,10 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="bg-[#E2DCC8] flex flex-col p-5 gap-5 rounded-2xl">
+      <div className="bg-[#E2DCC8] lg:flex hidden flex-col p-5 gap-5 rounded-2xl ">
         <span>Available for Freelance</span>
         <span>Currently taking on new projects for Q3 2025</span>
-        <div className='w-max'>
+        <div className="w-max">
           <Button variation="six">Check Availability</Button>
         </div>
       </div>
