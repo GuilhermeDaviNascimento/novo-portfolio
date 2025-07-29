@@ -1,4 +1,4 @@
-import Button from '@/components/Button/button';
+import Button from '@/components/Button';
 import { IoIosMail } from 'react-icons/io';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaSquareInstagram } from 'react-icons/fa6';

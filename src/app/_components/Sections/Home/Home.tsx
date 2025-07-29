@@ -1,4 +1,4 @@
-import Button from '@/components/Button/button';
+import Button from '@/components/Button';
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io';
 import { FaDownload } from 'react-icons/fa';
 import Link from 'next/link';
