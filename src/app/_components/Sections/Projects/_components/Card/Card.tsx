@@ -1,4 +1,6 @@
 import Button from '@/components/Button/button';
+import Image from 'next/image';
+import Link from 'next/link';
 import { IoIosArrowForward } from 'react-icons/io';
 
 interface Card_Props {
@@ -13,7 +15,7 @@ export default function Card({ img, title, description, technologies, url }: Car
   return (
     <div className="w-full flex flex-col">
       <div className="w-full aspect-video overflow-hidden">
-        <img
+        <Image
           src={img}
           alt="card_image"
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -33,10 +35,12 @@ export default function Card({ img, title, description, technologies, url }: Car
             </div>
           ))}
         </div>
-        <div className='w-max'>
-        <Button variation="third">
-          View Project <IoIosArrowForward />
-        </Button>
+        <div className="w-max">
+          <Link href={url}>
+            <Button variation="third">
+              View Project <IoIosArrowForward />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

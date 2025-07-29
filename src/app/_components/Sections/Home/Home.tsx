@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-[#f1f1f1] min-w-screen min-h-screen flex flex-col justify-center">
       <div className=" flex items-center lg:px-48 px-10 justify-between w-full h-4/5">
         <div className="flex flex-col gap-2">
-          <span className="text-2xl">Hi, I'm</span>
+          <span className="text-2xl">Hi, It&apos;m</span>
           <span className="md:text-8xl text-4xl font-bold">Guilherme Davi</span>
           <span className="md:text-4xl text-2xl font-bold border-b-8 border-[#e2dcc8] w-max">
             Front-end Developer

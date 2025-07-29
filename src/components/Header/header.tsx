@@ -53,7 +53,7 @@ export default function Header() {
       {/* Button visible on all sizes */}
       <div className="hidden md:block">
         <Link href={'https://wa.me/985649307'}>
-          <Button variation="four">Let's Talk</Button>
+          <Button variation="four">Lett&apos;s Talk</Button>
         </Link>
       </div>
     </header>

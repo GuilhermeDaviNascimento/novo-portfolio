@@ -8,10 +8,10 @@ export default function Idea() {
       id="contact"
     >
       <span className="border-[#0f3d3e] border-b-4 text-4xl font-bold lg:w-max pb-5">
-        Have an Idea? Let's Talk
+        Have an Idea? Lett&apos;s Talk
       </span>
       <span className="mt-5">
-        I'm always open to discussing new projects, creative ideas or opportunities to be part of
+        It&apos;m always open to discussing new projects, creative ideas or opportunities to be part of
         your vision.
       </span>
       <div className="flex mt-5 gap-5 h-1/2 w-full flex-col lg:flex-row">

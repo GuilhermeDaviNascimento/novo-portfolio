@@ -14,7 +14,7 @@ export default function About() {
           </span>
 
           <p>
-            I'm a passionate Product Designer and Front-End Developer with a keen eye for creating
+            It&apos;m a passionate Product Designer and Front-End Developer with a keen eye for creating
             beautiful, functional, and user-centered digital experiences. My approach combines
             creative design thinking with technical expertise to build products that not only look
             great but also solve real problems. Specializing in UI/UX design, React development, and
